@@ -1,5 +1,5 @@
 import React from "react";
-import { Route, BrowserRouter } from "react-router-dom";
+import { Route, BrowserRouter, HashRouter  } from "react-router-dom";
 
 import Home from "./pages/Home";
 import Cart from "./pages/Cart";
@@ -10,12 +10,12 @@ import purchaseHistory from "./pages/PurchaseHistory";
 
 function Routes() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Route component={Home} path="/" exact />
       <Route component={Cart} path="/cart" />
       <Route component={purchaseHistory} path="/history" />
       <Route component={Settings} path="/settings" />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
