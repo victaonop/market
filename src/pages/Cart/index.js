@@ -123,8 +123,12 @@ function Cart() {
     else {
       purchaseHistoryObj.push(...cartItensObj)
       purchaseHistoryObj.forEach(item => {
-        item.owner = value.name;
-        item.purchaseDate = new Date();
+        if(!item.purchaseDate) {
+          item.purchaseDate = new Date();
+        }
+        if(!item.owner) {
+          item.owner = value.name;
+        }
       });
       localStorage.setItem('purchaseHistory', JSON.stringify(purchaseHistoryObj));
     }
