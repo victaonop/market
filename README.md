@@ -35,14 +35,10 @@
   <a href="#eyes-check-it-out">Check it Out</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#art-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#information_source-how-to-use">How to Use</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#thumbsup-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <!-- <a href="#thumbsup-how-to-contribute">How to Contribute</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; -->
   <a href="#memo-license">License</a>
 </p>
 
-<p align="center">
-  <img alt="Home" src="public/github-scene---pokky-home@2x.png">
-  <img alt="List" src="public/github-scene---pokky-list@2x.png">
-</p>
 
 ## :rocket: Technologies
 
@@ -51,7 +47,7 @@ This project was developed with the following technologies:
 -  [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 -  [React JS](https://pt-br.reactjs.org/)
 -  [Styled-Components](https://styled-components.com/)
--  [Axios](https://github.com/axios/axios)
+<!-- -  [Axios](https://github.com/axios/axios) -->
 -  [VS Code][vc] with [EditorConfig][vceditconfig] and [ESLint][vceslint]
 
 ## :eyes: Check it Out
@@ -71,9 +67,6 @@ $ git clone https://github.com/victaonop/market.git
 # Go into the repository
 $ cd market
 
-# Go into the client folder
-$ cd client
-
 # Install dependencies
 $ npm install
 
@@ -90,7 +83,7 @@ This project is under the MIT license. See the [LICENSE](https://github.com/vict
 ---
 
 <h4 align="center">
-    Made with by Vitor Guedes 👋 <a href="https://www.linkedin.com/in/vitormguedes/" target="_blank">Get in touch!</a>
+    Made with by Vitor Guedes <a href="https://www.linkedin.com/in/vitormguedes/" target="_blank">Get in touch!</a>
 </h4>
 
 [vc]: https://code.visualstudio.com/
