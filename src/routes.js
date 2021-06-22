@@ -10,12 +10,12 @@ import purchaseHistory from "./pages/PurchaseHistory";
 
 function Routes() {
   return (
-    <HashRouter>
+    <BrowserRouter>
       <Route component={Home} path="/" exact />
       <Route component={Cart} path="/cart" />
       <Route component={purchaseHistory} path="/history" />
       <Route component={Settings} path="/settings" />
-    </HashRouter>
+    </BrowserRouter>
   );
 }
 
